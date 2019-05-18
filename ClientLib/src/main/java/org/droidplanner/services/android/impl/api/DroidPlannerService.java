@@ -230,8 +230,8 @@ public class DroidPlannerService extends Service {
             notifBuilder.setContentText(connectedCount + " connected apps");
         }
 
-        final Notification notification = notifBuilder.build();
-        startForeground(FOREGROUND_ID, notification);
+//        final Notification notification = notifBuilder.build();
+//        startForeground(FOREGROUND_ID, notification);
     }
 
     @Override
